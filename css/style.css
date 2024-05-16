@@ -1,0 +1,216 @@
+html {
+    font-size: 65%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    font-size: 1.7rem;
+    height: auto;
+    justify-content: space-between;
+    padding: 25px 40px 25px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    background-color: white;
+    z-index: 500;
+}
+
+nav .logoTxt {
+    color: rgba(45, 46, 50, 100%);
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul a {
+    color: rgba(45, 46, 50, 100%);
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul a:hover {
+    color: blue;
+    font-size: 110%
+}
+
+nav .logoTxt:hover {
+    color: blue;
+    font-size: 130%;
+    transition: 0.5s;
+}
+.hero {
+    background-color: rgba(249, 249, 249, 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100rem;
+    padding: 0 4rem;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    gap: 10rem;
+    height: 65rem;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-main {
+    align-items: center;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    position: relative;
+}
+
+.hero-text h1 {
+    color: black;
+    font-size: 5.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.hero-text p {
+    color: rgba(85, 85, 85, 100);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.hero-text span {
+    cursor: pointer;
+    display: flex;
+    gap: 1.3rem;
+    margin: 2.5rem 0;
+}
+
+.hero-text span a {
+    transition: all 2s;
+    color: black;
+    font-size: 3rem;
+}
+
+.hero-image {
+    width: 35rem;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 35rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    background-image: url(../images/GAZDATA.jpg);
+}
+
+.about {
+    background-color: white;
+    padding: 15rem 0;
+}
+
+.about-content {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.text-slide {
+    padding-right: 1.5rem;
+}
+.text-slide h3{
+    color: blue;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.text-slide h4{
+    color: black;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+.text-slide p{
+    color: grey;
+    font-family: "Roboto Thin", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: justify;
+}
+.projects{
+    background-color: white;
+    padding: 15rem 0;
+}
+.new-projects{
+    color: black;
+    font-size: 2.6rem;
+    text-align: center;
+}
+.contact{
+    background-color: white;
+    padding: 11rem;
+}
+.content-content{
+    display: flex;
+    flex-direction: column;
+}
+.content-title p{
+    color: blue;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.content-title{
+    color: black;
+    font-size: 2.5rem;
+}
+.content-icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    margin-top: 6rem;
+}
+.content-icon-box{
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+}
+
