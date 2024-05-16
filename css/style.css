@@ -1,216 +1,144 @@
-html {
-    font-size: 65%;
-}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <title>Mahmut Miftaroski</title>
+</head>
+<body>
+<!----------------------------------------------------->
+<!-TODO:Navigacija->
+<nav>
+    <h3 class="logoTxt">
+        Mahmut
+    </h3>
+    <ul>
+        <li>
+            <a href="#home">Home</a>
+        </li>
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+</nav>
+<!----------------------------------------------------->
+<!--TODO:Mobilna Navigacija-->
+<!----------------------------------------------------->
+<!--TODO:Main Sekcija-->
+<section id="home" class="hero">
+    <div class="container">
+        <div class="content">
+            <div class="hero-main">
+                <div class="hero-text">
+                    <h1>Student at FINKI</h1>
+                    <p>Hi, I'm Mahmut Miftaroski. A student at Faculty Of Computer Science And Engineering in Skopje,
+                        Macedonia. 📍</p>
+                    <span>
+                        <a href="https://github.com/mahmutmft" target="_blank">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                         viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                              d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z"
+                              clip-rule="evenodd"/>
+                    </svg>
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+                </a>
+                    </span>
+                </div>
+                <div class="hero-image">
+                </div>
+            </div>
+            <div class="skills">
+            </div>
+        </div>
+    </div>
+</section>
+<!----------------------------------------------------->
+<!-TODO:About Sekcija->
+<section class="about" id="about">
+    <div class="container">
+        <div class="about-content">
+            <div class="img-slider">
 
-body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
+            </div>
+            <div class="text-slide">
+                <h3>About Me</h3>
+                <h4>
+                    Student at FINKI <br>
+                    in Skopje, Macedonia 📍
+                </h4>
+                <p>
+                    Hi there! I'm Mahmut Miftaroski, a computer science student based in Skopje, Macedonia. I'm
+                    passionate about technology and love exploring different areas of computer science,
+                    from programming to web development and more. Always eager to learn and grow!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
-nav {
-    display: flex;
-    font-size: 1.7rem;
-    height: auto;
-    justify-content: space-between;
-    padding: 25px 40px 25px 50px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
-    background-color: white;
-    z-index: 500;
-}
+<!----------------------------------------------------->
+<!--TODO:Project Sekcija-->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2 class="new-projects">...</h2>
+    </div>
+</section>
+<!----------------------------------------------------->
+<!--TODO:Contact Sekcija-->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="content-content">
+            <div class="content-title">
+                <p>contact</p>
+                <h3>Hit me up! 👇</h3>
+            </div>
+            <div class="content-icons">
+                <div class="content-icon-box">
+                    <span></span>
+                    <div class="contact-info">
+                        <h3>Location</h3>
+                        <p>Skopje, Macedonia</p>
+                    </div>
+                </div>
+                <div class="content-icon-box">
+                    <span></span>
+                    <div class="contact-info">
+                        <h3>Location</h3>
+                        <p>Skopje, Macedonia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------------------------------------------------->
+<!--TODO:Footer-->
+<footer>
+    <div class="container">
+        <div class="footerc">
+            <h3>Copyright &copy;</h3>
+            <div class="footerc-socials">
 
-nav .logoTxt {
-    color: rgba(45, 46, 50, 100%);
-    cursor: pointer;
-}
-
-nav ul {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-}
-
-nav ul a {
-    color: rgba(45, 46, 50, 100%);
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-nav ul a:hover {
-    color: blue;
-    font-size: 110%
-}
-
-nav .logoTxt:hover {
-    color: blue;
-    font-size: 130%;
-    transition: 0.5s;
-}
-.hero {
-    background-color: rgba(249, 249, 249, 100%);
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    position: relative;
-    width: 100%;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 100rem;
-    padding: 0 4rem;
-}
-
-.content {
-    align-items: center;
-    display: flex;
-    gap: 10rem;
-    height: 65rem;
-    justify-content: center;
-    position: relative;
-}
-
-.hero-main {
-    align-items: center;
-    display: flex;
-    gap: 10rem;
-    justify-content: center;
-    position: relative;
-}
-
-.hero-text {
-    display: flex;
-    flex-direction: column;
-    max-width: 50rem;
-    position: relative;
-}
-
-.hero-text h1 {
-    color: black;
-    font-size: 5.5rem;
-    line-height: 1.2;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.hero-text p {
-    color: rgba(85, 85, 85, 100);
-    font-size: 1.8rem;
-    font-weight: 500;
-    line-height: 1.6;
-}
-
-.hero-text span {
-    cursor: pointer;
-    display: flex;
-    gap: 1.3rem;
-    margin: 2.5rem 0;
-}
-
-.hero-text span a {
-    transition: all 2s;
-    color: black;
-    font-size: 3rem;
-}
-
-.hero-image {
-    width: 35rem;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 3px solid black;
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    height: 35rem;
-    position: relative;
-    transition: all 1s ease-in-out;
-    background-image: url(../images/GAZDATA.jpg);
-}
-
-.about {
-    background-color: white;
-    padding: 15rem 0;
-}
-
-.about-content {
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-}
-
-.text-slide {
-    padding-right: 1.5rem;
-}
-.text-slide h3{
-    color: blue;
-    font-size: 1.7rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-}
-.text-slide h4{
-    color: black;
-    font-size: 2.5rem;
-    line-height: 1.4;
-    margin-bottom: 2rem;
-}
-.text-slide p{
-    color: grey;
-    font-family: "Roboto Thin", sans-serif;
-    font-size: 1.7rem;
-    font-weight: 500;
-    line-height: 1.5;
-    text-align: justify;
-}
-.projects{
-    background-color: white;
-    padding: 15rem 0;
-}
-.new-projects{
-    color: black;
-    font-size: 2.6rem;
-    text-align: center;
-}
-.contact{
-    background-color: white;
-    padding: 11rem;
-}
-.content-content{
-    display: flex;
-    flex-direction: column;
-}
-.content-title p{
-    color: blue;
-    font-size: 1.7rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-}
-.content-title{
-    color: black;
-    font-size: 2.5rem;
-}
-.content-icons{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8rem;
-    margin-top: 6rem;
-}
-.content-icon-box{
-    align-items: center;
-    display: flex;
-    gap: 1.5rem;
-}
-
+            </div>
+        </div>
+    </div>
+</footer>
+<!----------------------------------------------------->
+<!----------------------------------------------------->
+<!--TODO:Mobile Responsive-->
+<!----------------------------------------------------->
+</body>
+</html>
