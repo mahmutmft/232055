@@ -1,5 +1,6 @@
 html {
     font-size: 65%;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -58,6 +59,7 @@ nav .logoTxt:hover {
     font-size: 130%;
     transition: 0.5s;
 }
+
 .hero {
     background-color: rgba(249, 249, 249, 100%);
     display: flex;
@@ -99,7 +101,7 @@ nav .logoTxt:hover {
 
 .hero-text h1 {
     color: black;
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     line-height: 1.2;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -126,21 +128,40 @@ nav .logoTxt:hover {
 }
 
 .hero-image {
-    background-position: 35%;
-    animation: morph 6s ease-in-out infinite;
+    animation: morph 10s ease-in-out infinite;
     width: 35rem;
     transform: scale(110%);
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid black;
-    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    border-radius: 60%;
     height: 35rem;
     position: relative;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
     background-image: url(../images/GAZDATA.jpg);
 }
-.hero-image:hover{
+.hero-image:hover {
     transform: scale(140%);
+}
+.skills{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+}
+.skills p {
+    border-right: 2px solid rgba(45,46,50,.5);
+    font-weight: 600;
+    margin-right: 7rem;
+    padding-right: 2rem;
+}
+.skills ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    list-style-type: none;
 }
 .about {
     background-color: white;
@@ -157,20 +178,23 @@ nav .logoTxt:hover {
 .text-slide {
     padding-right: 1.5rem;
 }
-.text-slide h3{
+
+.text-slide h3 {
     color: blue;
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
-.text-slide h4{
+
+.text-slide h4 {
     color: black;
     font-size: 2.5rem;
     line-height: 1.4;
     margin-bottom: 2rem;
 }
-.text-slide p{
+
+.text-slide p {
     color: grey;
     font-family: "Roboto Thin", sans-serif;
     font-size: 1.7rem;
@@ -178,54 +202,63 @@ nav .logoTxt:hover {
     line-height: 1.5;
     text-align: justify;
 }
-.projects{
+
+.projects {
     background-color: white;
     padding: 15rem 0;
 }
-.new-projects{
+
+.new-projects {
     color: black;
     font-size: 2.6rem;
     text-align: center;
 }
-.contact{
+
+.contact {
     background-color: white;
     padding: 11rem;
 }
-.content-content{
+
+.content-content {
     display: flex;
     flex-direction: column;
 }
-.content-title p{
+
+.content-title p {
     color: blue;
     font-size: 1.7rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
-.content-title{
+
+.content-title {
     color: black;
     font-size: 2.5rem;
 }
-.content-icons{
+
+.content-icons {
     display: flex;
     flex-wrap: wrap;
     gap: 8rem;
     margin-top: 6rem;
 }
-.content-icon-box{
+
+.content-icon-box {
     align-items: center;
     display: flex;
     gap: 1.5rem;
 }
 
+
 @keyframes morph {
-    0%{
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    0% {
+        border-radius: 70%;
     }
-    50%{
-        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    50% {
+        border-radius: 30%;
     }
-    100%{
-        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    100% {
+        border-radius: 70%;
     }
 }
